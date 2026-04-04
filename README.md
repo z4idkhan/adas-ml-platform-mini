@@ -7,3 +7,17 @@ It exposes REST APIs for real-time inference and is tested using Swagger UI.
 Example:
 Input: telemetry data (speed, braking, steering)
 Output: risk score (low / medium / high)
+
+<H2>Architecture Diagram</H2>
+
+Vehicle Telemetry Input
+        ↓
+FastAPI Backend (Inference Service)
+        ↓
+Feature Processing
+        ↓
+ML Model (Risk Prediction)
+        ↓
+Response (Risk Score)
+        ↓
+Swagger UI (Testing)
