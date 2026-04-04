@@ -11,13 +11,13 @@ Output: risk score (low / medium / high)
 <H2>Architecture Diagram</H2>
 
 Vehicle Telemetry Input
-        ↓
+↓
 FastAPI Backend (Inference Service)
-        ↓
+↓
 Feature Processing
-        ↓
+↓
 ML Model (Risk Prediction)
-        ↓
-Response (Risk Score)
-        ↓
+↓
+API Response (Risk Score)
+↓
 Swagger UI (Testing)
