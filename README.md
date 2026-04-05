@@ -37,7 +37,7 @@ Swagger UI (Testing)
 
 Follow the steps below in order to run the ADAS ML Platform Mini end-to-end.
 
-Prerequisites
+## Prerequisites
 
 Make sure you have:
 
