@@ -3,14 +3,16 @@ import shutil
 import os
 
 from app.model.inference import Predictor
+from fastapi.responses import RedirectResponse
 
 app = FastAPI(title="ADAS ML Platform Mini API")
 predictor = Predictor()
 
 
+
 @app.get("/")
-def root():
-    return {"message": "ADAS ML Platform Mini API is running"}
+def redirect_to_docs():
+    return RedirectResponse(url="/docs")
 
 
 @app.post("/predict")
