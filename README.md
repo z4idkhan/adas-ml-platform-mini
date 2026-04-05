@@ -139,11 +139,13 @@ Purpose: Visualizes model performance and metrics
 Access Dashboard:
 
     http://localhost:8501
+    
+<img width="1463" height="856" alt="image" src="https://github.com/user-attachments/assets/805a5b67-a9cb-40f7-b2b2-34cd3cc13f4a" />
+<br><br>
 
 ## Execution Flow Summary
     Validate → Train → Evaluate → Serve API → View Dashboard    
 
-<img width="1463" height="856" alt="image" src="https://github.com/user-attachments/assets/805a5b67-a9cb-40f7-b2b2-34cd3cc13f4a" />
 
 
 
